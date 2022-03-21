@@ -1,0 +1,5 @@
+# See your sequence name inside psql console with \ds command.
+ALTER SEQUENCE seq RESTART WITH 1;
+
+# Update sequence
+UPDATE table_name SET id=nextval('seq');
