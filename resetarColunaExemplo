@@ -1,7 +1,7 @@
 # ver as seq
 SELECT * FROM information_schema.sequences;
 
-# resetar seq
+# resetar seq ( colocar a seq que precisa, que apareceu no comando acima, e não a palavra seq
 ALTER SEQUENCE seq RESTART WITH 1;
 
 # Update seq
